@@ -1,0 +1,12 @@
+.error-404 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  background: {
+    image: url("/images/404/bg.png");
+    size: cover;
+    position: center;
+  }
+}

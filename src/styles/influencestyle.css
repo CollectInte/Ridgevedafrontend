@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap');
+
+/* Container grid */
+.influence-section-smm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* responsive columns */
+    gap: 30px; /* space between boxes */
+    margin: 50px auto;
+    padding: 50px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+/* Each step/card */
+.influence-step-smm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 15px 15px; /* top padding for circle */
+    border-radius: 35px;
+    border: 3px solid #2D4FE1;
+    background-color: #fbfeff;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 300px; /* dynamic height */
+    overflow: visible;
+}
+
+/* Circle icon wrapper */
+.influence-sub-image-smm {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    border: 2px solid #2D4FE1;
+    border-radius: 50%;
+    background-color: #fbfeff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.influence-sub-image-smm img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Typography */
+.influence-step-smm h2 {
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.influence-step-smm p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+
+/* Zig-zag effect for even boxes on desktop */
+@media (min-width: 992px) {
+    .influence-step-smm:nth-child(even) {
+        transform: translateY(50px); /* push even boxes lower */
+    }
+    .influence-step-smm:nth-child(odd) {
+        transform: translateY(0);
+    }
+}
+
+/* Force a fixed number of columns on very wide screens */
+@media (min-width: 1200px) {
+    .influence-section-smm {
+        grid-template-columns: repeat(7, 1fr); /* 6 boxes per row */
+    }
+}
+

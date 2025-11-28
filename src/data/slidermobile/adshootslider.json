@@ -1,0 +1,42 @@
+[
+    {
+     "id": 1,
+      "img":"images/services/adshoot/why/branding.png",
+      "head": "Creative Expertise",
+      "alt": "Discover Icon",
+      "text": " Our experienced team blends storytelling, strategy, and aesthetics to deliver content that resonates."
+               
+    },
+    {
+        "id": 2,
+        "img":"images/services/adshoot/why/audio_engineer.png",
+         "head": "Full Production Support",
+         "alt": "Enhance Icon",
+         "text": "We handle everything — ideation, scripting, shooting, editing, and distribution."
+                  
+       },
+       {
+        "id": 3,
+        "img":"images/services/adshoot/why/retargeting.png",
+         "head": "Client-Centric adshoot",
+         "alt": "Increase Share Icon",
+         "text": "We collaborate at every stage to ensure your vision is realized with precision."
+                  
+       },
+       {
+        "id": 4,
+        "img":"images/services/adshoot/why/money.png",
+         "head": "Budget-Friendly Packages",
+         "alt": "Boosting Icon",
+         "text": " Scalable solutions for startups, SMEs, and large enterprises."
+                  
+       },
+       {
+        "id": 5,
+        "img":"images/services/adshoot/why/speed_icon.png",
+         "head": "Fast Turnaround",
+         "alt": "Showing Icon",
+         "text": " We value your time and deliver quality content within agreed timelines."
+                  
+       }
+  ]

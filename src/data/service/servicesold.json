@@ -1,0 +1,66 @@
+[
+    {
+      "id": "1",
+      "icon": "/home/service/seo.svg",
+      "title": "Search Engine Optimization (SEO)",
+      "to":"/seo",
+      "desc": "Improve your website’s visibility and ranking with our SEO services. We focus on optimizing your site to ensure it appears at the top of search engine results, driving organic traffic and boosting credibility."
+    },
+    {
+      "id": "2",
+      "icon": "/home/service/social-media-mark.svg",
+      "title": "Social Media Marketing",
+      "to":"/smm",
+      "desc": "Harness the power of social media to build your brand and connect with your audience. Our tailored social media strategies help you engage followers, promote your business, and increase conversions across platforms."
+    },
+    {
+      "id": "3",
+      "icon": "/home/service/pay-per-click.svg",
+      "title": "Pay-Per-Click Advertising",
+      "to":"/ppc",
+      "desc": "Generate immediate traffic and leads with targeted PPC campaigns. We create high-converting ads on platforms like Google and social media to drive the right audience to your website and maximize your ROI."
+    },
+    {
+      "id": "4",
+      "icon": "/home/service/content.svg",
+      "title": "Content Marketing",
+      "to":"/content-marketing",
+      "desc": "Engage and inform your audience with high-quality content. From blog posts and articles to videos and infographics, we craft content that builds trust, improves SEO, and drives meaningful engagement."
+    },
+    {
+      "id": "5",
+      "icon": "/home/service/web-design.svg",
+      "title": "Web Development",
+      "to":"/web-development",
+      "desc": "Your website is your digital storefront, and we make sure it stands out. Our web development team creates responsive, user-friendly websites that are optimized for performance and designed to convert visitors into customers."
+    },
+    {
+      "id": "6",
+      "icon": "/home/service/graphic-design.svg",
+      "title": "Graphic Designing",
+      "to":"/grapic-design",
+      "desc": "Visuals play a crucial role in building your brand’s identity. Our graphic design services deliver compelling and creative designs that capture attention and reinforce your message across all digital channels."
+    },
+    {
+      "id": "7",
+      "icon": "/home/service/influence.svg",
+      "title": "Influencer Marketing",
+      "to":"/influence-marketing",
+      "desc": "Leverage the power of influencers to promote your brand and reach new audiences. We connect you with the right influencers to amplify your message, increase brand awareness, and drive conversions."
+    },
+    {
+      "id": "8",
+      "icon": "/images/services/dropdown/icons/money.png",
+      "title": "Financial Marketing",
+      "to":"/financial-marketing",
+      "desc": "Leverage the power of influencers to promote your brand and reach new audiences. We connect you with the right influencers to amplify your message, increase brand awareness, and drive conversions."
+    },
+     {
+      "id": "8",
+      "icon": "/images/services/dropdown/icons/advertising.png",
+      "title": "Offline Marketing",
+      "to":"/offline-marketing",
+      "desc": "Leverage the power of influencers to promote your brand and reach new audiences. We connect you with the right influencers to amplify your message, increase brand awareness, and drive conversions."
+    }
+  ]
+  

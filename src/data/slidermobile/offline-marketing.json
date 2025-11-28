@@ -1,0 +1,44 @@
+[
+    {
+     "id": 1,
+      "img": "images/services/offline-marketing/insight/pn.png",
+      "head": " Audience Profiling & Location Mapping",
+      "alt": "Target Icon",
+      "text": " We analyze demographics, behavior patterns, and lifestyle data to identify where your ideal customers are most active—be it gated communities, corporates, or campuses."
+    },
+    {
+      "id": 2,
+      "img": "images/services/offline-marketing/insight/feedback-loop.png",
+      "head": "Campaign Testing  & Feedback Loops",
+      "alt": "Right Icon",
+      "text": " Pilot campaigns and real-time consumer feedback help refine messaging, visuals, and offers—ensuring your strategy is not just creative, but also effective."
+    },
+    {
+      "id": 3,
+      "img": "images/services/offline-marketing/insight/competitor-analysis.png",
+      "head": " Industry & Competitor Research",
+      "alt": "Authenticity Icon",
+      "text": "Understanding your industry and studying offline moves of competitors helps us identify opportunity gaps and position your brand uniquely."
+    },
+    {
+      "id": 4,
+      "img": "images/services/offline-marketing/insight/cultural-sensitivity.png",
+      "head": "Regional & Cultural Relevance",
+      "alt": "Multi-Platform Icon",
+      "text": " We incorporate local customs, languages, and events into our strategies to make your offline campaigns feel familiar and relatable to the audience."
+    },
+    {
+      "id": 5,
+      "img": "images/services/offline-marketing/insight/real-time-monitoring.png",
+      "head": "Real-World Behavior Tracking ",
+      "alt": "Performance Tracking Icon",
+      "text": " We gather insights from footfall data, peak timings, and engagement behavior at previous activations to choose the right time, place, and messaging for your campaign."
+    },
+      {
+      "id": 6,
+      "img": "images/services/offline-marketing/insight/pr.png",
+      "head": " Post-Campaign Analysis for  Learning ",
+      "alt": "Performance Tracking Icon",
+      "text": " After each activation, we provide detailed reports and performance insights—helping you understand what worked, what didn’t, and how to improve for the next round."
+    }
+      ]

@@ -1,0 +1,31 @@
+[
+    {
+     "id": 1,
+      "img": "images/services/sales/why-choose/industry-specific.png",
+      "head": "Industry-Specific Expertise",
+      "alt": "Corporate Salary Cards Icon",
+      "text": "We bring domain knowledge in BFSI, real estate, telecom, FMCG, and more. Our expertise enables us to tailor sales strategies that resonate with each industry’s unique dynamics. From lead generation to closing deals, we align our approach with your business goals for maximum impact."
+    },
+    {
+      "id": 2,
+      "img": "images/services/sales/why-choose/datadriven.png",
+      "head": "Data-Driven Strategy",
+      "alt": "Gift & Reward Cards Icon",
+      "text": "We use CRM systems and performance analytics to monitor and optimize results. Real-time insights help us fine-tune strategies and improve conversion rates. This data-driven approach ensures transparency, accountability, and continuous improvement."
+    },
+    {
+      "id": 3,
+      "img": "images/services/sales/why-choose/scalable-workforce.png",
+      "head": "Scalable Workforce",
+      "alt": "Travel Cards Icon",
+      "text": "Scale your sales efforts with trained telecallers, field agents, and digital enablers. Our multi-channel approach ensures consistent customer engagement across every touchpoint. Whether it’s outbound calling, on-ground activation, or digital outreach, we deliver results that drive growth. "
+    },
+    {
+      "id": 4,
+      "img": "images/services/sales/why-choose/flexible_engagement_model.png",
+      "head": "Flexible Engagement Models",
+      "alt": "Student Cards Icon",
+      "text": "Choose from freelance, outsourced, or hybrid sales models based on your business needs. These models offer flexibility in scaling your sales efforts without heavy upfront investment. Align your choice with your sales goals, budget, and in-house capabilities for maximum impact"
+    }
+    
+  ]

@@ -1,0 +1,184 @@
+.circle-container {
+  position: relative;
+  width: 40%;
+  height: 600px;
+  margin: auto;
+  padding:50px 10px;
+  margin-top:20px;
+}
+
+.sales-box-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #5892B7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sales-inner-box-center h1 {
+  font-size: 16px;
+}
+
+.sales-inner-box-center{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #5892B7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Outer circle base */
+.circle {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.circle-inner {
+ border-radius: 50%;
+ width: 140px;
+  height: 140px;
+ 
+box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+ display: flex;
+ flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding:5px;
+}
+.circle-inner>h3{
+    font-size: 15px;
+    font-weight:600 ;
+    text-align:center;
+     color: black;
+   
+}
+.circle-inner>p{
+    font-size:10px;
+    text-align:center;
+       color: black;
+}
+/* Positioning 6 circles around in a circle using percentages or trigonometry */
+.circle1 { top: 0%; left: 51%; transform: translate(-50%, 0);   background-color: #B46767;
+ }
+.circle2 { top: 31%; left: 83%; transform: translate(-50%, -50%);background-color: #77D3C0; }
+.circle3 { top: 65%; left: 97%; transform: translate(-100%, -50%); background-color: #C8B789;}
+.circle4 { top: 85%; left: 52%; transform: translate(-50%, -50%); background-color: #CB9C9F;}
+.circle5 { top: 66%; left: 18%; transform: translate(-50%, -50%); background-color: #8AC35F;}
+.circle6 { top: 32%; left: 18%; transform: translate(-50%, -50%);background-color: #8CA7FF; }
+
+/* Responsive adjustments */
+@media screen and (max-width: 767px) {
+  .circle-container {
+    width: 100%;
+    height: 500px;
+  }
+
+  .sales-box-center {
+    width: 135px;
+    height: 135px;
+  }
+  .sales-inner-box-center{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size:12px !important;
+  background-color: #5892B7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+  .circle {
+    width: 130px;
+    height: 130px;
+    font-size: 12px;
+  }
+
+  .circle-inner {
+    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+  font-size: 11px;
+  padding:15px 0px;
+  }
+
+  .circle1 { top: 0%; left: 51%; transform: translate(-50%, 0); background-color: #B46767 }
+.circle2 { top: 31%; left: 83%; transform: translate(-50%, -50%); background-color: #77D3C0;}
+.circle3 { top: 65%; left: 100%; transform: translate(-100%, -50%);background-color: #C8B789; }
+.circle4 { top: 85%; left: 52%; transform: translate(-50%, -50%);background-color: #CB9C9F; }
+.circle5 { top: 66%; left: 18%; transform: translate(-50%, -50%); background-color: #8AC35F;}
+.circle6 { top: 32%; left: 18%; transform: translate(-50%, -50%); background-color: #8CA7FF; }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .circle-container {
+    width: 100%;
+    height: 500px;
+  }
+
+  .sales-box-center {
+    width: 135px;
+    height: 135px;
+  }
+  .sales-inner-box-center{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size:12px !important;
+  background-color: #5892B7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+  .circle {
+    width: 130px;
+    height: 130px;
+    font-size: 12px;
+  }
+
+  .circle-inner {
+    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+  font-size: 11px;
+  padding:15px 0px;
+  }
+
+  .circle1 { top: 0%; left: 51%; transform: translate(-50%, 0); background-color: #B46767 }
+.circle2 { top: 31%; left: 73%; transform: translate(-50%, -50%); background-color: #77D3C0;}
+.circle3 { top: 65%; left: 84%; transform: translate(-100%, -50%);background-color: #C8B789; }
+.circle4 { top: 85%; left: 52%; transform: translate(-50%, -50%);background-color: #CB9C9F; }
+.circle5 { top: 66%; left: 28%; transform: translate(-50%, -50%); background-color: #8AC35F;}
+.circle6 { top: 32%; left: 28%; transform: translate(-50%, -50%); background-color: #8CA7FF; }
+
+}

@@ -1,0 +1,51 @@
+[
+    {
+     "id": 1,
+      "img": "images/services/smm/smmicon/developing.svg",
+      "head": "Strategy  Development",
+      "alt": "Strategy Icon",
+      "text": " We begin with client discovery, gaining a clear understanding of the business, goals, target audience, and competitors. Next, we select the most suitable social platforms based on the client’s niche to maximize reach and engagement."
+    },
+    {
+      "id": 2,
+      "img": "images/services/smm/smmicon/image26.svg",
+      "head": "Account Setup  &  Optimization",
+      "alt": "Account Icon",
+      "text": "We create or optimize profiles with consistent branding, including bio, profile picture, and contact details. We define content guidelines for voice, tone, and visual style. Lastly, we integrate tools for scheduling, analytics, and engagement."
+    },
+    {
+      "id": 3,
+      "img": "images/services/smm/smmicon/calendar.svg",
+      "head": "Content Creation  & Scheduling",
+      "alt": "Content Icon",
+      "text": "We create engaging content like images, videos, and captions tailored to each platform. Content drafts are shared with the client for approval before posting. Then, we use scheduling tools to plan and automate content publishing.  "
+    },
+    {
+      "id": 4,
+      "img": "images/services/smm/smmicon/image27.svg",
+      "head": "Community   Management",
+      "alt": "Community Icon",
+      "text": " We monitor and respond to comments, messages, and mentions to build relationships. We manage both positive and negative feedback professionally to maintain a strong brand image. Additionally, we track relevant trends and hashtags to boost reach."
+    },
+    {
+      "id": 5,
+      "img": "images/services/smm/smmicon/paid-ads.svg",
+      "head": "Paid Social  Campaigns",
+      "alt": "Social Icon",
+      "text": " We plan paid ad campaigns based on client goals, such as brand awareness or conversions. We create tailored ad creatives and copy for the target audience. Then, we monitor performance and optimize to improve ROI "
+    },
+    {
+      "id": 6,
+      "img": "images/services/seo-icons/image10.svg",
+      "head": "Report",
+      "alt": "Report Icon",
+      "text": "Our SEO team provides regular consultations and monthly reports, detailing site performance, KPI trends, and rankings. Each month, we create a new 90-day roadmap to keep you informed on campaign progress and expectations."
+    },
+    {
+      "id": 7,
+      "img": "images/services/smm/smmicon/image10.svg",
+      "head": "Reporting  Analysis",
+      "alt": "Reporting  Icon",
+      "text": " We track key metrics like reach, engagement, follower growth, and conversions. We provide insights on what’s working and suggest areas for improvement. Regular weekly or monthly reports are shared with clients to review progress. "
+    }
+  ]

@@ -1,0 +1,49 @@
+.section-contact {
+    &.style-three {
+        .content-main {
+            color: setColor(black);
+
+            .tag {
+                color: setColor(black);
+                background-color: setColor(yellow);
+            }
+
+        }
+
+        .list-features,
+        .organizatio,
+        .select {
+            display: none;
+        }
+
+        .button-main {
+            background-color: setColor(yellow);
+            color: setColor(black);
+        }
+    }
+
+    &.style-five {
+        .content-main {
+            .tag {
+                background-color: setColor(green);
+            }
+
+        }
+
+        .button-main {
+            background-color: setColor(green);
+        }
+    }
+}
+
+/* Hide arrows in Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide arrows in Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}

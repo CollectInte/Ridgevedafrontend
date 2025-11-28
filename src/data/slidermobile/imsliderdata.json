@@ -1,0 +1,44 @@
+[
+    {
+     "id": 1,
+      "img": "images/services/influence-marketing/insight-icons/target-audience.svg",
+      "head": "Understanding Target Audience",
+      "alt": "Target Icon",
+      "text": "  Brands must define their target audience and select influencers based on demographics, interests, and online behavior. Aligning with the right niche ensures relevant content, stronger connections, and higher engagement."
+    },
+    {
+      "id": 2,
+      "img": "images/services/influence-marketing/insight-icons/influencer.svg",
+      "head": "Right Influencers",
+      "alt": "Right Icon",
+      "text": " Brands should evaluate influencers based on reach, engagement, authenticity, and audience demographics. While micro-influencers offer higher engagement in niche communities, macro-influencers and celebrities provide broader exposure, making a balanced mix ideal."
+    },
+    {
+      "id": 3,
+      "img": "images/services/influence-marketing/insight-icons/content-strategy.svg",
+      "head": "Authenticity & Content Strategy",
+      "alt": "Authenticity Icon",
+      "text": "  Authenticity is key in influencer marketing, making genuine, creative content more impactful. Allowing influencers creative freedom fosters trust through storytelling, behind-the-scenes insights, and user-generated content."
+    },
+    {
+      "id": 4,
+      "img": "images/services/influence-marketing/insight-icons/optimization.svg",
+      "head": "Multi-Platform Optimization",
+      "alt": "Multi-Platform Icon",
+      "text": " Each social media platform requires a tailored content strategy, with Instagram and TikTok excelling in visuals, YouTube in reviews, and LinkedIn for B2B marketing. Optimizing formats like videos, reels, and live sessions ensures maximum impact across platforms."
+    },
+    {
+      "id": 5,
+      "img": "images/services/influence-marketing/insight-icons/performance.svg",
+      "head": "Performance Tracking ",
+      "alt": "Performance Tracking Icon",
+      "text": " Tracking campaign performance through KPIs like engagement, reach, and conversions helps refine strategies. Using affiliate links, UTM parameters, and promo codes links influencer efforts directly to sales and ROI."
+    },
+   {
+      "id": 6,
+      "img": "images/services/influence-marketing/insight-icons/compliance.svg",
+      "head": "Compliance & Transparency ",
+      "alt": "Compliance  Icon",
+      "text": " Our SEO team provides regular consultations and monthly reports, detailing site performance, KPI trends, and rankings. Each month, we create a new 90-day roadmap to keep you informed on campaign progress and expectations."
+    }
+]

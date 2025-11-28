@@ -1,0 +1,51 @@
+.question-item {
+    .question-item-main {
+        position: relative;
+
+        svg {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            transition: all ease 0.5s;
+        }
+
+        .icon-plus {
+            opacity: 1;
+        }
+
+        .icon-minus {
+            opacity: 0;
+        }
+    }
+
+    .content-question {
+        transition: all ease-in-out 0.5s;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    &.open {
+        .question-item-main {
+            .icon-plus {
+                opacity: 0;
+            }
+
+            .icon-minus {
+                opacity: 1;
+            }
+        }
+
+        .content-question {
+            max-height: 150px;
+        }
+    }
+}
+
+.list-faqs {
+    .question-item {
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

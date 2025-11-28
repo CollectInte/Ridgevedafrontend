@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.container {
+  max-width: 1360px !important;
+  @include make-container($gutter: 70px);
+  @include media-breakpoint-down(lg) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

@@ -1,0 +1,42 @@
+[
+    {
+     "id": 1,
+      "img":"images/services/content-marketing/icons/simplify.png",
+      "head": "Simplifying Complex Information",
+      "alt": "Discover Icon",
+      "text": " Great content simplifies even the most complex topics. We use clear language and break down technical concepts into digestible insights. Our approach turns industry jargon into engaging, reader-friendly material that connects with your audience."
+               
+    },
+    {
+        "id": 2,
+        "img":"images/services/content-marketing/icons/visual.png",
+         "head": "Enhancing Visual Approach",
+         "alt": "Enhance Icon",
+         "text": " A strong visual strategy boosts content engagement. We use infographics, videos, and graphics to make information clear and appealing. These visuals capture attention and improve retention, ensuring your content stands out."
+                  
+       },
+       {
+        "id": 3,
+        "img":"images/services/content-marketing/icons/share.png",
+         "head": "Increasing Shareability",
+         "alt": "Increase Share Icon",
+         "text": "Shareable content drives engagement and expands your brand’s reach. We craft compelling, audience-focused stories using interactive elements and social-friendly formats. By creating content that resonates, we encourage more shares, interactions, and meaningful connections with your audience."
+                  
+       },
+       {
+        "id": 4,
+        "img":"images/services/content-marketing/icons/retention.png",
+         "head": "Boosting Retention and Comprehension",
+         "alt": "Boosting Icon",
+         "text": " Retention is key to driving action. By structuring content with clear headings, bullet points, and easy-to-follow layouts, we enhance readability and comprehension. Interactive content, such as quizzes, FAQs, and summaries, further reinforces key takeaways, keeping your audience engaged."
+                  
+       },
+       {
+        "id": 5,
+        "img":"images/services/content-marketing/icons/data.png",
+         "head": "Showing Data and Statistic",
+         "alt": "Showing Icon",
+         "text": " Numbers tell a powerful story. We leverage data-driven insights, charts, and real-time analytics to support claims, build credibility, and demonstrate measurable success. Our approach ensures that statistics are not just presented but translated into meaningful insights that drive decision-making."
+                  
+       }
+  ]

@@ -1,0 +1,14 @@
+.footer-block {
+  &.style-three {
+    background-color: setColor(black);
+    color: setColor(white);
+
+    .text-surface1 {
+      color: setColor(white);
+    }
+  }
+
+  &.style-four {
+    background-color: #1a1a1a;
+  }
+}

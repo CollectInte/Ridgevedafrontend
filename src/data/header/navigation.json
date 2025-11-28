@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Home",
+    "to": "/",
+    "subMenu":[]
+  },
+  {
+    "title":"Services",
+    
+    "subMenu":["Tech","Sales","Marketing","Content Creation","TeleCalling Outsourcing"],
+    "submenupage":["tech","sales","marketing","contentcreation","telecalling"]
+  },
+  {
+    "title": "Contact Us",
+    "to": "/contact-us",
+    "subMenu": []
+  },
+  {
+    "title": "Careers",
+    "to": "careers",
+    "subMenu": []
+  },
+  {
+    "title": "Blogs",
+    "to": "/blogs",
+    "subMenu": []
+  }
+]
+

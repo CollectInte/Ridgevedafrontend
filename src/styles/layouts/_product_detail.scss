@@ -1,0 +1,36 @@
+.product-detail-content {
+  .category {
+    .heading6 {
+      position: relative;
+      transition: all ease 0.4s;
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: setColor(blue);
+        transition: all ease 0.4s;
+      }
+
+      &:hover,
+      &.active {
+        color: setColor(black);
+
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .tabs-item {
+    display: none;
+
+    &.open {
+      display: block;
+    }
+  }
+}

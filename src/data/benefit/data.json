@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "icon": "Medal",
+        "title": "Expertise",
+        "desc": "Access to specialized knowledge and technology expertise for effective IT solutions."
+    },
+    {
+        "id": "2",
+        "icon": "Money",
+        "title": "Cost Savings",
+        "desc": "Avoiding expenses associated with maintaining an in-house IT department."
+    },
+    {
+        "id": "3",
+        "icon": "Fingerprint",
+        "title": "Enhanced Security",
+        "desc": "Robust measures to protect against cyber threats and ensure data security."
+    },
+    {
+        "id": "4",
+        "icon": "ChartLineUp",
+        "title": "Increased Efficiency",
+        "desc": "Streamlined operations, automation, and proactive monitoring for improved productivity."
+    },
+    {
+        "id": "5",
+        "icon": "Medal",
+        "title": "In-Depth Expertise",
+        "desc": "With a history of helping businesses grow, our experience speaks for itself delivering measurable outcomes and building loyal customer bases."
+    },
+    {
+        "id": "6",
+        "icon": "HandEye",
+        "title": "Objective Viewpoint",
+        "desc": "Harness unbiased external perspectives, delivering fresh and effective solutions through impartial analysis and evaluation."
+    },
+    {
+        "id": "7",
+        "icon": "PiggyBank",
+        "title": "Time and Energy Savings",
+        "desc": "Through strategy determination and execution, save time and concentrate on core areas."
+    },
+    {
+        "id": "8",
+        "icon": "ChartLineUp",
+        "title": "Efficiency Optimization",
+        "desc": "Streamline business operations, from processes to technology, enhancing competitiveness and performance."
+    },
+    {
+        "id": "9",
+        "icon": "Headset",
+        "title": "Trusted Advisor",
+        "desc": "We are hardware and software agnostic, which means customers always get the right solutions for their needs. "
+    },
+    {
+        "id": "10",
+        "icon": "UsersThree",
+        "title": "Team Augmentation",
+        "desc": "We want to make your life easier, period. Think of us as an extremely experienced and reliable extension of your team."
+    },
+    {
+        "id": "11",
+        "icon": "Rocket",
+        "title": "Digital Innovation",
+        "desc": "Technology changes, which means there are more possibilities every day. With that in mind, we are always learning and adding to our solutions."
+    },
+    {
+        "id": "12",
+        "icon": "Crown",
+        "title": "Faith-Based Morality",
+        "desc": "At Byteware, we work as we live, guided by principles that encourage honesty, transparency, and doing right unto others."
+    },
+    {
+        "id": "13",
+        "icon": "PiggyBank",
+        "title": "Time Savings",
+        "desc": "Through strategy determination and execution, save time and concentrate on core areas."
+    },
+    {
+        "id": "14",
+        "icon": "ChartDonut",
+        "title": "Enhanced Online Visibility",
+        "desc": "Our SEO expertise ensures your business ranks higher on search engines, increasing your brand's visibility to potential customers."
+    },
+    {
+        "id": "15",
+        "icon": "ChartPolar",
+        "title": "Targeted Traffic Generation",
+        "desc": "We drive quality organic traffic to your website, attracting users who are actively searching for products or services like yours."
+    },
+    {
+        "id": "16",
+        "icon": "ChartBar",
+        "title": "Improved ROI",
+        "desc": "With strategic SEO, your investment yields long-term results, delivering a higher return on investment compared to traditional advertising methods."
+    }
+]

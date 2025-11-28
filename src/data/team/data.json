@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "image": "/images/avatar/410x410.png",
+    "name": "John Smith",
+    "position": "Graphic Designer",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 2,
+    "image": "/images/avatar/410x410.png",
+    "name": "Chris Patt",
+    "position": "CEM - digiNova",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 3,
+    "image": "/images/avatar/410x410.png",
+    "name": "Jack halow",
+    "position": "Photographer",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 4,
+    "image": "/images/avatar/410x410.png",
+    "name": "Annette Black",
+    "position": "Graphic Designer",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 5,
+    "image": "/images/avatar/410x410.png",
+    "name": "Jane Cooper",
+    "position": "CEM - digiNova",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 6,
+    "image": "/images/avatar/410x410.png",
+    "name": "Brooklyn Simmons",
+    "position": "Photographer",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 7,
+    "image": "/images/avatar/410x410.png",
+    "name": "Theresa Webb",
+    "position": "CEM - digiNova",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 8,
+    "image": "/images/avatar/410x410.png",
+    "name": "Kathryn Murphy",
+    "position": "Photographer",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 9,
+    "image": "/images/avatar/410x410.png",
+    "name": "Cameron Williamson",
+    "position": "CEM - digiNova",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 10,
+    "image": "/images/avatar/410x410.png",
+    "name": "Floyd Miles",
+    "position": "Photographer",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  },
+  {
+    "id": 11,
+    "image": "/images/avatar/410x410.png",
+    "name": "Jerome Bell",
+    "position": "CEM - digiNova",
+    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+  }
+]

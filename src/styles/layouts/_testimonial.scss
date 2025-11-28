@@ -1,0 +1,127 @@
+.testimonial-block {
+  .list-avatar {
+    .bg-img {
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: all ease 0.4s;
+
+      &.active {
+        height: 100%;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  @media (max-width: 639.98px) {
+    .list-avatar {
+      .bg-img {
+        height: 0;
+        width: 100%;
+        transition: opacity linear 0.5s;
+
+        &.active {
+          height: auto;
+        }
+      }
+    }
+
+    .desc {
+      display: block; //ie
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      white-space: normal;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &.style-six {
+    .slick-list {
+      overflow: unset;
+
+      .slick-slide {
+        >div {
+          height: 100%;
+
+          .item {
+            height: 100%;
+            justify-content: space-between;
+
+            .desc {
+              display: block; //ie
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+              white-space: normal;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+        }
+      }
+    }
+
+    .slick-dots {
+      margin-left: 0;
+      margin-top: 40px;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0;
+      gap: 8px;
+
+      @media (max-width:767.99px) {
+        margin-top: 32px;
+      }
+
+      li {
+        position: relative;
+        border: none;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        button {
+          display: none;
+        }
+
+        &::after {
+          content: "";
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: transparent;
+          border: 1px solid #171717;
+          transition: 0.5s;
+        }
+
+        &.slick-active {
+          border: 1px solid setColor(black);
+          background-color: #fff;
+
+          &::after {
+            background-color: setColor(black);
+            border: 1px solid setColor(black);
+          }
+        }
+      }
+    }
+  }
+
+  .style-service {
+    .list-avatar {
+      .bg-img {
+        overflow: hidden;
+        border-radius: 40px;
+      }
+    }
+  }
+}

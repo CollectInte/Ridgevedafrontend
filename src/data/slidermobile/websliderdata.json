@@ -1,0 +1,51 @@
+[
+    {
+     "id": 1,
+      "img": "images/services/web-development/insight-icons/data-collection.svg",
+      "head": "Data Collection",
+      "alt": "Data Collection Icon",
+      "text": "Gather data from multiple sources, including market research, customer feedback, website analytics, and industry reports. Use qualitative (surveys, interviews) and quantitative (sales, engagement rates) methods for comprehensive insights."
+    },
+    {
+      "id": 2,
+      "img": "images/services/web-development/insight-icons/trend.svg",
+      "head": "Trend & Pattern Analysis",
+      "alt": "Trend Icon",
+      "text": "  Analyze collected data to identify key trends, correlations, and emerging consumer behaviors.Use tools like Google Analytics, heatmaps, and social media insights to track engagement and preferences."
+    },
+    {
+      "id": 3,
+      "img": "images/services/web-development/insight-icons/target.svg",
+      "head": "Audience Understanding",
+      "alt": "Audience Icon",
+      "text": "Segment audiences based on demographics, interests, and behaviors.Develop customer personas to understand pain points, motivations, and purchasing patterns."
+    },
+    {
+      "id": 4,
+      "img": "images/services/web-development/insight-icons/idea-generation.svg",
+      "head": "Idea Generation",
+      "alt": "Idea Icon",
+      "text": "Brainstorm hypotheses based on observed patterns and customer needs.Collaborate with cross-functional teams (marketing, sales, product development) for diverse perspectives."
+    },
+    {
+      "id": 5,
+      "img": "images/services/web-development/insight-icons/software-testing.svg",
+      "head": "Validation & Testing",
+      "alt": "Validation Icon",
+      "text": "Conduct A/B testing, focus groups, or pilot campaigns to test insights.Use real-time feedback and analytics to refine and confirm assumptions. "
+    },
+    {
+      "id": 6,
+      "img": "images/services/web-development/insight-icons/implement.svg",
+      "head": "Implementation",
+      "alt": "Implementation Icon",
+      "text": "Apply insights to business strategies, such as marketing campaigns, product improvements, or customer engagement tactics.Align insights with business goals to drive growth and innovation. "
+    },
+    {
+      "id": 7,
+      "img": "images/services/web-development/insight-icons/monitoring.svg",
+      "head": "Monitoring & Optimization",
+      "alt": "Monitoring  Icon",
+      "text": "Continuously track key performance indicators (KPIs) to measure the impact of implemented insights.Make data-driven refinements for continuous improvement and better decision-making."
+    }
+  ]

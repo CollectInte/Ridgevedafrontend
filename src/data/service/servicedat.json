@@ -1,0 +1,38 @@
+[
+   {
+      "id": "1",
+      "icon": "/home/service/web-design.svg",
+      "title": "Tech",
+      "to":"/tech",
+      "desc": "Your website is your digital storefront, and we make sure it stands out. Our web development team creates responsive, user-friendly websites that are optimized for performance and designed to convert visitors into customers."
+    },
+    {
+      "id": "2",
+      "icon": "/home/service/social-media-mark.svg",
+      "title": "Sales",
+      "to":"/sales",
+      "desc": "Our customized sales solutions empower your business to convert leads, close deals, and boost revenue. From lead generation to client retention, we help you optimize every stage of the sales funnel and maximize growth."
+    },
+    {
+      "id": "3",
+      "icon": "/home/service/pay-per-click.svg",
+      "title": "Marketing",
+      "to":"/marketing",
+      "desc": "We craft strategic marketing plans that attract, engage, and convert your ideal customers. From content and email marketing to SEO and analytics, we help you reach the right audience and achieve measurable results that grow your business."
+    },
+     {
+      "id": "4",
+      "icon": "/home/service/content.svg",
+      "title": "Content Creation",
+      "to":"/contentcreation",
+      "desc": "We craft strategic marketing plans that attract, engage, and convert your ideal customers. From content and email marketing to SEO and analytics, we help you reach the right audience and achieve measurable results that grow your business."
+    },
+     {
+       "id": "5",
+      "icon": "/images/services/dropdown/icons/call-center.svg",
+      "title": "TeleCalling Outsourcing",
+      "to":"/telecalling",
+      "desc": "We provide expert telecalling outsourcing services that help businesses connect with customers more effectively and drive real growth."
+     }
+  ]
+  

@@ -1,0 +1,111 @@
+.process-section{
+  margin:0;
+  padding-top:30px;
+  height:750px;
+
+}
+
+.web-container{
+  position:relative;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding:20px;
+  margin:auto;
+  
+  height:700px;
+  padding-top:50px;
+}
+.web-heading{
+  text-align:center
+}
+.process-one{
+  position:absolute;
+  left:2%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border:2px solid red;
+  width:190px;
+  height:370px;
+}
+
+.process-two{
+  position:absolute;
+  left:15%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border:2px solid red;
+  width:190px;
+  height:370px;
+}
+
+.process-three{
+  position:absolute;
+  left:29%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border:2px solid red;
+  width:190px;
+  height:370px;
+}
+
+.process-four{
+  position:absolute;
+  left:43%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border:2px solid red;
+  width:190px;
+  height:370px;
+}
+
+.process-five{
+  position:absolute;
+  left:57%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border:2px solid red;
+  width:190px;
+  height:370px;
+}
+
+.process-six{
+  position:absolute;
+  left:71%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border:2px solid red;
+  width:190px;
+  height:370px;
+}
+
+.process-seven{
+  position:absolute;
+  left:84%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border:2px solid red;
+  width:190px;
+  height:370px;
+}
+.web-dev-mobile-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;  /* keeps aspect ratio, avoids distortion */
+  image-rendering: -webkit-optimize-contrast; /* improves clarity on some browsers */
+  image-rendering: crisp-edges; /* for pixel-perfect images */
+}
+
+.process-sub-one,.process-sub-two,.process-sub-three,.process-sub-four,.process-sub-five,.process-sub-six
+{
+  position: absolute;
+  left:23%;
+ 
+}

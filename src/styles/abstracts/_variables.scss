@@ -1,0 +1,40 @@
+$colors: (
+  black: #0C1228,
+  surface1: #646570,
+  surface2: #ABB0B4,
+  white: #ffffff,
+  surface: #EFF0F3,
+  outline: #E4E4E4,
+  blue: #2D4FE1,
+  yellow: #F4D118,
+  pink: #E13789,
+  green: #63E483,
+  purple: #5B45F3,
+  grey: rgba(39, 75, 227, 0.10),
+  line: rgba(229, 229, 229, 0.10),
+);
+
+$shades: (
+  dark: #111,
+  medium: #888,
+  light: #e1e1e1,
+);
+
+$breakpoint: (
+  sm: " 576px",
+  md: "768px",
+  lg: "1024px",
+  xl: "1280px",
+  xxl: "1400px",
+  xxxl: "1770px",
+);
+
+$rem-baseline: 16;
+$transition: 0.3s ease;
+$prefixes: (
+  webkit,
+  moz,
+  ms,
+  o
+);
+$cambay: "Cambay", sans-serif;

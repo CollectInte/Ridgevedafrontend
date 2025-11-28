@@ -1,0 +1,24 @@
+.section-benefit {
+  &.style-four {
+    .list {
+      .benefit-item {
+        @media (min-width: 1280px) {
+          &:first-child {
+            display: none;
+          }
+        }
+
+        .heading6 {
+          display: block; //ie
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          word-break: break-all;
+          white-space: normal;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}

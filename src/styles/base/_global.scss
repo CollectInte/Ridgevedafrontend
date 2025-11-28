@@ -1,0 +1,292 @@
+.heading1 {
+    font-size: 80px;
+    line-height: 88px;
+    font-weight: 750;
+    text-transform: capitalize;
+}
+
+.heading2 {
+    font-size: 56px;
+    line-height: 68px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.heading3 {
+    font-size: 44px;
+    line-height: 52px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.heading4 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.heading5 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.heading6 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.text-title {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.text-button {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.text-button-sm {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.body2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.body3 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.caption1 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.caption2 {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.text-label {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+.bg-linear {
+    background: linear-gradient(238deg, #FAF7EF 0%, #F4F6FC 99.66%);
+}
+
+.bg-linear-gradient-yellow {
+    background: linear-gradient(180deg, #FAF7EF 65%, #FFFFFF 100%);
+}
+
+.bg-linear-gradient {
+    background: linear-gradient(0deg, #FFF 0%, #E5EAFF 100%);
+}
+
+.bg-linear-blue {
+    background: linear-gradient(85deg, #414E62 0%, #805D5D 99.85%);
+}
+
+.bg-linear-pink {
+    background: linear-gradient(85deg, #231A87 0%, #E13789 99.85%);
+}
+
+.bg-linear-purple {
+    background: linear-gradient(180deg, #F5ECF9 0%, rgba(243, 242, 240, 0.00) 100%);
+}
+
+.button-main {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: setColor(white);
+    background-color: setColor(blue);
+    border-radius: 4px;
+    text-transform: capitalize;
+    letter-spacing: 1.28px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+
+    &.text-button-sm {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+
+    &:hover {
+        background-color: #1533B4;
+    }
+
+    &.bg-grey {
+        color: setColor(black);
+
+        &:hover {
+            color: setColor(white);
+        }
+    }
+
+    &.bg-yellow {
+        color: setColor(black);
+
+        &:hover {
+            color: setColor(black);
+            background-color: #ebb41d;
+        }
+    }
+
+    &.bg-pink {
+        &:hover {
+            background-color: #bd1476;
+        }
+    }
+
+    &.bg-green {
+        &:hover {
+            background-color: #26fd5c;
+        }
+    }
+
+    &.bg-purple {
+        &:hover {
+            background-color: #5700c9;
+        }
+    }
+}
+
+.select-block {
+    position: relative;
+
+    select {
+        appearance: none;
+    }
+
+    svg {
+        position: absolute;
+        top: 50%;
+        right: 16px;
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 1023.98px) {
+    .heading1 {
+        font-size: 62px;
+        line-height: 74px;
+    }
+
+    .heading2 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .heading3 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .heading4 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .heading5 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .heading1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .heading2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .heading3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .heading4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .heading5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .heading6 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .text-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .text-button {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .text-button-sm {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .body2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .caption1 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .caption2 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .text-label {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .button-main {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 12px 20px;
+        border-radius: 6px;
+    }
+}

@@ -1,0 +1,103 @@
+/* Container: grid layout */
+.influence-section-smm {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px 30px; /* row-gap column-gap */
+  margin: 90px auto 50px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Each step card */
+.influence-step-smm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 60px 15px 15px;
+  border-radius: 25px;
+  min-height: 350px;
+  position: relative;
+  background-color: #fbfeff;
+  border: 2px solid #2D4FE1;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+/* Circle icon wrapper */
+.influence-sub-image-smm {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90px;
+  height: 90px;
+  border: 2px solid #2D4FE1;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.influence-sub-image-smm img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Typography */
+.influence-step-smm h4 {
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.influence-step-smm p {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+.even-smm{
+    margin-top:50px
+}
+/* Zig-zag effect using grid-row alignment */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .influence-step-smm:nth-child(even) {
+    align-self: end; /* push even cards lower within their row */
+  }
+  .influence-step-smm:nth-child(odd) {
+    align-self: start; /* keep odd cards at top of their row */
+  }
+}
+
+/* Single row for very large screens */
+@media (min-width: 900px) {
+  .influence-section-smm {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+  }
+  .influence-step-smm {
+    align-self: start; /* remove zig-zag */
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+  .influence-section-smm {
+    grid-template-columns: 1fr; /* single column */
+    gap: 20px;
+  }
+  .influence-step-smm {
+    min-height: auto;
+    padding-top: 60px;
+    align-self: start;
+  }
+}

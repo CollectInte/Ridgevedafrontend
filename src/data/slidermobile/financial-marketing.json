@@ -1,0 +1,51 @@
+[
+    {
+     "id": 1,
+      "img": "images/services/financial-marketing/Group77.png",
+      "head": "Business Financial Health Assessment",
+      "alt": "Discover Icon",
+      "text": "We analyze key metrics like cash flow, profit margins, and liabilities to develop actionable insights that improve your financial stability."
+    },
+    {
+      "id": 2,
+      "img": "images/services/financial-marketing/loan_7075625.png",
+      "head": "Loan & Credit Utilization Insights",
+      "alt": "Analyse Icon",
+      "text": "Our experts assess your credit usage to guide smarter loan applications, repayments, and credit score improvements."
+    },
+    {
+      "id": 3,
+      "img": "images/services/financial-marketing/pattern-recognition_16685506.png",
+      "head": "Spending Pattern Analysis",
+      "alt": "Strategize Icon",
+      "text": "By tracking and categorizing your business expenses, we help you identify unnecessary costs and optimize resource allocation."
+    },
+    {
+      "id": 4,
+      "img": "images/services/financial-marketing/analysis_18543935.png",
+      "head": "Real-Time Dashboard Reporting",
+      "alt": "Execute Icon",
+      "text": "With integrated digital tools, we provide live insights into your business’s financial performance through intuitive dashboards."
+    },
+    {
+      "id": 5,
+      "img": "images/services/financial-marketing/income_2329066.png",
+      "head": "Revenue Forecasting & Growth Projections",
+      "alt": "Measure Icon",
+      "text": "We use historical data and market trends to create clear financial forecasts, helping you plan for scalability and investment."
+    },
+    {
+      "id": 6,
+      "img": "images/services/financial-marketing/asset_3881993.png",
+      "head": "Market-Specific Financial Strategy Development",
+      "alt": "Report Icon",
+      "text": " Tailored financial recommendations based on your industry, business model, and current economic environment."
+    },
+    {
+      "id": 7,
+      "img": "images/services/financial-marketing/tax_3408755.png",
+      "head": "Tax & Compliance Intelligence",
+      "alt": "Adjust Icon",
+      "text": "Stay ahead with predictive alerts and recommendations on tax deadlines, deductions, and regulatory requirements."
+    }
+  ]

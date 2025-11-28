@@ -1,0 +1,29 @@
+.form-login-block {
+    display: none;
+
+    &.open {
+        display: block;
+    }
+}
+
+.payment-block {
+    .list-payment {
+        .type {
+            .infor {
+                overflow: hidden;
+                max-height: 0;
+                // opacity: 0;
+                visibility: hidden;
+                transition: all ease 0.8s;
+            }
+
+            &.open {
+                .infor {
+                    max-height: 1000px;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}

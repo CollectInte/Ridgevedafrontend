@@ -1,0 +1,40 @@
+.cart-block {
+  .heading.banner {
+    .tow-bar-block {
+      height: 4px;
+      background-color: setColor(surface);
+      position: relative;
+
+      .progress-line {
+        position: absolute;
+        left: 0;
+        height: 4px;
+        background-color: setColor(blue);
+
+        &::before {
+          content: "";
+          position: absolute;
+          right: -8px;
+          top: -6px;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background-color: setColor(blue);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 640px) {
+    .list-product {
+      overflow-x: auto;
+
+      >div {
+        width: 640px;
+        max-width: 640px;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+}

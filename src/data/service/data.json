@@ -1,0 +1,61 @@
+[
+    {
+    "id": "2",
+    "icon": "/images/icons/software.png",
+    "title": "Tailored Software, Web & Mobile Development",
+    "desc": "Our services include custom development of web apps, mobile apps, and software designed to optimize performance and scale with your needs."
+  },
+  {
+    "id": "3",
+    "icon":  "/images/icons/cloud-server.png",
+    "title": "Cloud-Native Scalability",
+    "desc": "We build scalable cloud-native solutions with AWS, Azure, and GCP for seamless performance and growth.From microservices to serverless architecture, we enable fast, secure digital expansion."
+  },
+  {
+    "id": "4",
+    "icon":  "/images/icons/mobile.png",
+    "title": "Scalable Tech Infrastructure",
+    "desc": "Our team delivers robust infrastructure for apps, websites, and software systems built to scale with your business.We support  24/7  for long-term reliability."
+  },
+      {
+        "id": "22",
+        "icon": "icon-user-chart",
+        "title": "Scalable Solutions for Business",
+        "desc": "Our strategies are adaptable, allowing your business to scale as needed while maintaining customer retention and acquisition efficiency."
+    },
+    {
+        "id": "20",
+        "icon": "icon-device-cloud",
+        "title": "Engagement-Focused Approach",
+        "desc": "We focus on meaningful interactions, ensuring that your brand connects with customers on a deeper level to drive long-term loyalty."
+    },
+    {
+        "id": "18",
+        "icon": "icon-user-time",
+        "title": "Tailored Customer Acquisition",
+        "desc": "We design personalized acquisition plans that resonate with your target audience, ensuring higher engagement and customer conversion rates."
+
+    },
+    {
+        "id": "19",
+        "icon": "icon-hand-up",
+        "title": "Relationship Building & Retention",
+        "desc": "Beyond acquisition, we work on nurturing relationships to ensure customer satisfaction, driving repeat business and long-term partnerships."
+    },
+   
+    {
+        "id": "21",
+        "icon": "icon-target-chart",
+        "title": "Data-Driven Decision Making",
+        "desc": "Using advanced analytics, we continuously refine our methods to optimize performance, providing actionable insights for sustained growth."
+    },
+  
+
+    {
+        "id": "23",
+        "icon": "icon-target-audience",
+        "title": "Targeted Audience Segmentation",
+        "desc": "We identify key customer groups and deliver tailored messages, ensuring higher conversions and more meaningful connections for your business."
+    }
+    
+]

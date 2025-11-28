@@ -1,0 +1,13 @@
+.section-industry {
+    &.style-five {
+        background-attachment: fixed;
+        background-image: url('/images/component/industry5.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &.style-second {
+        background-image: url('/images/component/industry5-below.png');
+    }
+}

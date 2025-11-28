@@ -1,0 +1,81 @@
+.graphic-section-smm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* responsive columns */
+    gap: 20px;
+    margin: 60px auto 0 auto;
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Each box */
+.graphic-step-smm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 15px 15px; /* extra top padding for circle */
+    border-radius: 35px;
+    border: 3px solid #2D4FE1;
+    background-color: #fbfeff;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 220px;  /* dynamic starting height */
+    overflow: visible;
+}
+
+/* Circle icon wrapper */
+.graphic-sub-image-smm {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    border: 2px solid #2D4FE1;
+    border-radius: 50%;
+    background-color: #fbfeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.graphic-sub-image-smm img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Typography */
+.graphic-step-smm h2 {
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.graphic-step-smm p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+
+/* Zig-zag effect: push even boxes lower */
+@media (min-width: 992px) {
+    .graphic-step-smm:nth-child(even) {
+        transform: translateY(50px); /* adjust stagger height */
+    }
+    .graphic-step-smm:nth-child(odd) {
+        transform: translateY(0);
+    }
+}
+
+/* Optional: force a fixed number of columns on very wide screens */
+@media (min-width: 1400px) {
+    .graphic-section-smm {
+        grid-template-columns: repeat(5, 1fr); /* 5 columns for your 5 boxes */
+    }
+}

@@ -1,0 +1,13 @@
+.section-brand {
+  &__wrapper {
+    background-color: #feefef;
+    margin-bottom: remCal(100);
+    padding: emCal(16, 50);
+  }
+
+  &.style-subpage {
+    .list {
+      width: 100% !important;
+    }
+  }
+}
