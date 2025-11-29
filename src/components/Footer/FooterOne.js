@@ -20,17 +20,33 @@ export default function FooterOne({ classname }) {
       <div className={`footer-block ${classname}`}>
         <div className="container py-[60px]">
           <div className="flex justify-between gap-y-8 max-xl:flex-wrap">
-            <div className="xl:w-1/4 md:w-1/2">
-              <div className="footer-company-infor flex flex-col gap-5">
-                <Link href="/" className="logo">
-                  
-                    <img src='/images/logos/RV_logo_white.png' width={5000} height={100} alt="logo" className="w-[148px]" />
-                 
-                </Link>
-                <div className="caption1">At Ridgeveda, we set out on a mission to seamlessly bridge the gap between offline and online customer acquisition channels, providing our clients with innovative, data-driven solutions that drive real results </div>
-                <div className="caption1">Mon - Fri: 9:00 - 19:00 <br />Closed on Weekends</div>
-              </div>
-            </div>
+       <div className="xl:w-1/4 md:w-1/2">
+  <div className="footer-company-infor flex flex-col items-start gap-3 w-full">
+
+    <Link href="/" className="block self-start footer-logo -ml-5" >
+      <img
+        src="/images/logos/RV_logo_white.png"
+        width={5000}
+        height={100}
+        alt="logo"
+        className="w-[148px] block !m-0 !p-0"
+      />
+    </Link>
+
+    <p className="caption1 text-left !m-0 !p-0 !ml-0 !pl-0">
+      At Ridgeveda, we set out on a mission to seamlessly bridge the gap between
+      offline and online customer acquisition channels, providing our clients with
+      innovative, data-driven solutions that drive real results
+    </p>
+
+    <p className="caption1 text-left !m-0 !p-0 !ml-0 !pl-0">
+      Mon - Fri: 9:00 - 19:00 <br /> Closed on Weekends
+    </p>
+  </div>
+</div>
+
+
+
             <div className="w-full md:w-1/2">
               
                 <div className="footer-nav-item flex flex-col md:flex-row md:justify-evenly  ">
