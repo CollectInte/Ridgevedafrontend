@@ -14,17 +14,17 @@ const imageMap = [
   "/images/services/dropdown/icons/pay-per-click.svg",
   "/images/services/dropdown/icons/social-media-marketing.svg",
   "/home/service/content.svg",
-   "/images/services/dropdown/icons/call-center.svg",
+  "/images/services/dropdown/icons/call-center.svg",
 ];
 
 export default function Navigator({ disableSubmenu, className }) {
   const pathname = usePathname();
   const [dropdownOpen, setDropdownOpen] = useState(null);
   const dropdownRef = useRef(null);
-  
+
   const isHome = pathname === '/';
   const textColorClass = isHome ? 'text-white' : 'text-black';
-  
+
   // ✅ Close dropdown on outside click
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -134,6 +134,34 @@ export default function Navigator({ disableSubmenu, className }) {
           >
             <Link href={process.env.PUBLIC_URL + item.to}>
               <span>{item.title}</span>
+            </Link>
+          </li>
+        );
+      }
+
+      // Consultants Application
+      if (item.title === "Consultants Application") {
+        return (
+          <li
+            className={`relative ${pathname.includes('/cawebapplication') ? 'active' : ''}`}
+            key={index}
+          >
+            <Link href={process.env.PUBLIC_URL + item.to}>
+            <button className='btn text-white p-0'>{item.title} <i className="bi bi-box-arrow-up-right"></i></button>
+            </Link>
+          </li>
+        );
+      }
+
+      // Health Application
+      if (item.title === "Healthcare Application") {
+        return (
+          <li
+            className={`relative ${pathname.includes('/healthcare') ? 'active' : ''}`}
+            key={index}
+          >
+            <Link href={process.env.PUBLIC_URL + item.to}>
+            <button className='btn text-white p-0'>{item.title} <i className="bi bi-box-arrow-up-right"></i></button>
             </Link>
           </li>
         );

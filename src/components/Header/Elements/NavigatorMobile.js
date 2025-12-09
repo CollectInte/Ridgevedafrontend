@@ -17,8 +17,8 @@ const imageMap = [
   "/images/services/dropdown/icons/web-design.svg",
   "/home/service/pay-per-click.svg",
   "/images/services/dropdown/icons/influencer.svg",
-   "/images/services/dropdown/icons/money.png",
-    "/home/service/content.svg",
+  "/images/services/dropdown/icons/money.png",
+  "/home/service/content.svg",
 ];
 
 export default function Navigator({ disableSubmenu, className }) {
@@ -68,7 +68,7 @@ export default function Navigator({ disableSubmenu, className }) {
                 setDropdownOpen(true);
               }}
             >
-              <span className="cursor-pointer" style={{fontWeight:"bolder",fontSize:"15px"}}>{item.title}<ArrowDropDownIcon/></span>
+              <span className="cursor-pointer" style={{ fontWeight: "bolder", fontSize: "15px" }}>{item.title}<ArrowDropDownIcon /></span>
 
               {dropdownOpen && (
                 <ul
@@ -84,7 +84,7 @@ export default function Navigator({ disableSubmenu, className }) {
                         src={imageMap[subIndex]}
                         alt={subItem}
                         className="menu-icon-mobile"
-                         
+
                       />
                       <Link
                         href={item.submenupage[subIndex]}
@@ -102,16 +102,16 @@ export default function Navigator({ disableSubmenu, className }) {
       }
       return (
         <>
-        <li
-          className={classNames("relative", {
-            active: pathname.includes(item.to),
-          })}
-          key={index}
-        >
-          <Link href={process.env.PUBLIC_URL + item.to}>
-            <span style={{fontWeight:"bolder",fontSize:"15px"}}>{item.title}</span>
-          </Link>
-        </li>
+          <li
+            className={classNames("relative", {
+              active: pathname.includes(item.to),
+            })}
+            key={index}
+          >
+            <Link href={process.env.PUBLIC_URL + item.to}>
+              <span style={{ fontWeight: "bolder", fontSize: "15px" }}>{item.title}</span>
+            </Link>
+          </li>
         </>
       );
     });
@@ -136,7 +136,22 @@ export default function Navigator({ disableSubmenu, className }) {
   return (
     <div className={classNames("navigator", className)}>
       <ul>{renderMenu()}</ul>
-      <a href="tel:+9189771 08950"><button style={{backgroundColor:"rgb(71,101,228)",padding:"5px",color:"white",borderRadius:"5px",marginTop:"5px",fontWeight:"bold"}}><Call/> +91 89771 08950</button></a>
+      {/* <button
+        className="btn p-0"
+        onClick={() => window.location.href = "/cawebapplication"}
+      >
+        <u>Consultants Application <i className="bi bi-arrow-right"></i></u>
+      </button>
+      <br/>
+      <button
+        className="btn p-0"
+        onClick={() => window.location.href = "/healthcare"}
+      >
+        <u>Healthcare Application <i className="bi bi-arrow-right"></i></u>
+      </button>
+      <br/> */}
+      <a href="tel:+9189771 08950"><button style={{ backgroundColor: "rgb(71,101,228)", padding: "5px", color: "white", borderRadius: "5px", marginTop: "5px", fontWeight: "bold" }}><Call /> +91 89771 08950</button></a>
+
     </div>
   );
 }

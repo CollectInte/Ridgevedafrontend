@@ -24,6 +24,16 @@
     "title": "Blogs",
     "to": "/blogs",
     "subMenu": []
+  },
+  {
+    "title": "Consultants Application",
+    "to": "/cawebapplication",
+    "subMenu": []
+  },
+  {
+    "title": "Healthcare Application",
+    "to": "/healthcare",
+    "subMenu": []
   }
 ]
 
