@@ -6,7 +6,7 @@ const SolutionTwo = ({ data, start, limit }) => {
             <div className="container">
                 <h3 className="heading3 text-center">Our solutions</h3>
                 <p className="text-center mt-2">Empowering Your Success Through Expert Consulting Services</p>
-                <div className="grid lg:grid-cols-3 sm:grid-cols-2 lg:gap-[30px] gap-5 md:mt-10 mt-6 ">
+                <div className="grid lg:grid-cols-2 sm:grid-cols-2 lg:gap-[30px] gap-5 md:mt-10 mt-6 ">
                     {data.slice(0, 23).map((item, index) => (
                         <ServiceItem data={item} key={index} type={'style-two'} />
                     ))}

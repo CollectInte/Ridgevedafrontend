@@ -6,12 +6,12 @@ const AboutTwo = () => {
             <div className="container">
                 <div className="flex gap-y-3 items-center justify-between max-lg:flex-wrap">
                     <div className="w-full xl:w-5/12 lg:w-6/12">
-                        <h3 className="heading3">We are your strategic partner for business development</h3>
+                        <h3 className="heading3">We bring strategy, innovation, and execution together for your growth</h3>
                     </div>
                     <div className="w-full lg:w-6/12">
-                        <div className="desc">At Ridgeveda, we are your growth partner in technology, marketing, and sales. We help businesses scale smarter and faster with integrated solutions tailored for the digital age.</div>
-                                                <div className="desc">Our tech services include web & app development, custom software, cloud & DevOps, AI-driven solutions, and cybersecurity. In marketing, we deliver impact through SEO, content, PPC, social media, influencer campaigns, design, and offline activations. On the sales front, we drive results with channel partnerships, lead generation, telecalling, and on-ground activations.</div>
-                        <div className="desc">Collect. Connect. Convert. Grow.</div>
+                        <div className="desc">At RidgeVeda, we are your partner in digital growth, offering end-to-end solutions across website development, digital marketing, sales, content creation, telecalling outsourcing, and healthcare-focused digital services.</div>
+                                                <div className="desc"> We build high-performing websites, craft content that connects, and run result-driven marketing campaigns that boost visibility and conversions.</div>
+                        <div className="desc">Our sales and telecalling support helps businesses reach the right audience and close more opportunities, while our healthcare digital solutions enhance patient engagement and strengthen online presence—all working together to help your brand grow smarter and faster.</div>
 
                         {/* <Link className="text-button-sm inline-block mt-4 visited:no-underline underline border-black text-black" href="#about-us-section">About Us</Link> */}
                     </div>

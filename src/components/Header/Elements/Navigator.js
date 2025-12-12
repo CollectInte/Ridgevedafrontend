@@ -147,7 +147,7 @@ export default function Navigator({ disableSubmenu, className }) {
             key={index}
           >
             <Link href={process.env.PUBLIC_URL + item.to}>
-            <button className='btn text-white p-0'>{item.title} <i className="bi bi-box-arrow-up-right"></i></button>
+            <button className={`btn p-0 ${textColorClass}`}>{item.title} <i className="bi bi-box-arrow-up-right"></i></button>
             </Link>
           </li>
         );
@@ -161,7 +161,7 @@ export default function Navigator({ disableSubmenu, className }) {
             key={index}
           >
             <Link href={process.env.PUBLIC_URL + item.to}>
-            <button className='btn text-white p-0'>{item.title} <i className="bi bi-box-arrow-up-right"></i></button>
+            <button className={`btn p-0 ${textColorClass}`}>{item.title} <i className="bi bi-box-arrow-up-right"></i></button>
             </Link>
           </li>
         );

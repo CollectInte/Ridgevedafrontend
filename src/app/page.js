@@ -25,8 +25,6 @@ import seoMetadata from "./../components/lib/seo-metadata";
 export default function homepage() {
   const meta = seoMetadata.home;
 
-   
-
   return (
     <LayoutTwo>
       <SEOHead
@@ -38,20 +36,19 @@ export default function homepage() {
       <SliderTwo />
       <AboutTwo />
       <CtaTwo />
-      <BenefitOne classname="lg:mt-[60px] sm:mt-10 mt-8" data={benefitData} start={4} limit={8} />
+      {/* <BenefitOne classname="lg:mt-[60px] sm:mt-10 mt-8" data={benefitData} start={4} limit={8} /> */}
       <SolutionTwo data={serviceData} start={1} limit={22} />
 
-      <Services data={service} start={1} limit={7} />
+      {/* <Services data={service} start={1} limit={7} /> */}
       <CounterTwo />
 
       <div id="about-us-section" className="bg-subpage absolute w-full h-[740px] bg-linear-gradient z-[-1]"></div>
 
       <div className="md:pt-14 "></div>
-      {/* <BrandOne classname={'lg:pt-20 md:pt-14 pt-10 lg:pb-[60px] md:pb-12 py-8 style-subpage'} /> */}
       <CounterAbout />
-      <BenefitAbout />
+      {/* <BenefitAbout /> */}
       <Testimonial />
-      
+      <BrandOne classname={'lg:pt-20 md:pt-14 pt-10 lg:pb-[60px] md:pb-12 py-8 style-subpage'} />
       {/* <TestimonialTwo data={testimonialData} classname={'bg-linear-blue'} /> */}
       {/* <ContactOne classname={'bg-linear-blue'} /> */}
       {/* <section className="border-b border-outline"></section> */}

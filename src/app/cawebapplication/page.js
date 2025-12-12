@@ -87,22 +87,22 @@ export default function CAConsultancyPage() {
                         <form onSubmit={handleSubmit}>
                             <div className="mb-3">
                                 <label className="form-label fw-semibold">Name</label>
-                                <input type="text" className="form-control" placeholder="Enter your name" value={form.fullName} onChange={handleChange} required />
+                                <input type="text" className="form-control" name="fullName" placeholder="Enter your name" value={form.fullName} onChange={handleChange} required />
                             </div>
 
                             <div className="mb-3">
                                 <label className="form-label fw-semibold">Email</label>
-                                <input type="email" className="form-control" placeholder="Enter your email" value={form.email} onChange={handleChange} required />
+                                <input type="email" className="form-control" name="email" placeholder="Enter your email" value={form.email} onChange={handleChange} required />
                             </div>
 
                             <div className="mb-3">
                                 <label className="form-label fw-semibold">Mobile</label>
-                                <input type="tel" className="form-control" placeholder="Enter mobile number" value={form.mobile} onChange={handleChange} required />
+                                <input type="tel" className="form-control" name="mobile" placeholder="Enter mobile number" value={form.mobile} onChange={handleChange} required />
                             </div>
 
                             <div className="mb-3">
                                 <label className="form-label fw-semibold">Requirement</label>
-                                <textarea className="form-control" rows="4" placeholder="Tell us your requirement" value={form.requirements} onChange={handleChange} required></textarea>
+                                <textarea className="form-control" rows="4" name="requirements" placeholder="Tell us your requirement" value={form.requirements} onChange={handleChange} required></textarea>
                             </div>
 
                             <button type="submit" className="btn btn-primary w-100 py-2 fs-5">

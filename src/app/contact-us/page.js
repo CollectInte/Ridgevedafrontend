@@ -98,9 +98,9 @@ export default function ContactUs() {
                                 <div className="heading">
                                     <div className="tag caption1 font-bold uppercase">Contact Us</div>
                                     <h2 className="heading5 mt-4">We’d Love to Help You Grow</h2>
-                                    <p className="body2 mt-4">Thank you for choosing Ridgeveda Pvt Ltd as your trusted partner. We’re excited to connect with you and explore how our comprehensive services — spanning Online marketing, technology solutions, and sales support — can elevate your business.</p>
-                                    <p className="body2 mt-4">Whether you're looking to boost your online presence, streamline operations with smart tech, or increase conversions through strategic sales efforts, our team is here to make it happen.</p>
-                                    <p className="body2 mt-4">Let’s collaborate to unlock new opportunities, drive measurable growth, and take your brand to the next level.</p>
+                                    <p className="body2 mt-4">Thank you for connecting with RidgeVeda. Whether you want to build powerful software solutions, amplify your brand through strategic marketing, or strengthen your sales pipeline, our team is ready to support you.</p>
+                                    <p className="body2 mt-4">Reach out to us to discuss your requirements, share your goals, and explore how our integrated approach across technology, marketing, and sales can create meaningful impact for your business.</p>
+                                    <p className="body2 mt-4">Let’s collaborate to unlock new opportunities and drive your growth forward.</p>
                                 </div>
 
                                 <div className="list-social flex items-center gap-5 mt-7">

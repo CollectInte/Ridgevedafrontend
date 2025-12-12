@@ -8,15 +8,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 const logos = [
-  "/images/clients/icici.png",
-  "/images/clients/axis.png",
-  "/images/clients/unity.png",
-  "/images/clients/pnb.png",
-  "/images/clients/bajaj.png",
-  "/images/clients/birla.png",
-  "/images/clients/hdfc.png",
-  "/images/clients/kb.png",
-  "/images/clients/recarpet.png",
+  "/images/clients/blissfulbakes.png",
+  "/images/clients/wonderkids.png",
+  "/images/clients/9flavours.png",
+  "/images/clients/jjwellness.jpg",
+  "/images/clients/praanaspa.png",
+  "/images/clients/rajaoriginals.jpg",
   
 ]
 
@@ -24,8 +21,8 @@ export default function BrandOne({ classname }) {
   return (
     <section className={`section-brand ${classname}`}>
       <div className="container">
-        <h5 className="heading5 text-center">Our Prominent Clients</h5>
-        <div className="flex items-center justify-center mt-7">
+        <h5 className="heading3 text-center">Our Clients</h5>
+        <div className="flex items-center justify-center pt-9">
           <div className="list lg:w-11/12 w-full">
             <Swiper
               spaceBetween={0}
@@ -38,11 +35,11 @@ export default function BrandOne({ classname }) {
               }}
               breakpoints={{
                 576: {
-                  slidesPerView: 3,
+                  slidesPerView: 2,
                   spaceBetween: 0,
                 },
                 768: {
-                  slidesPerView: 4,
+                  slidesPerView: 3,
                   spaceBetween: 0,
                 },
                 992: {
@@ -50,7 +47,7 @@ export default function BrandOne({ classname }) {
                   spaceBetween: 0,
                 },
                 1200: {
-                  slidesPerView: 5,
+                  slidesPerView: 4,
                   spaceBetween: 0,
                 },
               }}
@@ -58,7 +55,7 @@ export default function BrandOne({ classname }) {
               {logos.map((logo, index) => (
                 <SwiperSlide key={index}>
                   <Link href={'#!'} scroll={false} className="brand-item flex items-center justify-center">
-                    <Image width={4000} height={3000} src={logo} alt="1" className="lg:h-[44px] h-9 w-auto" />
+                    <Image width={4000} height={3000} src={logo} alt="1" className="lg:h-[84px] sm:h-[100px] h-[70px] w-auto" />
                   </Link>
                 </SwiperSlide>
               ))}

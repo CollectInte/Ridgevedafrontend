@@ -4,8 +4,9 @@ const CounterTwo = () => {
       <div className="container" >
         <div className="flex max-lg:flex-col gap-y-10 text-white">
           <div className="lg:w-6/12">
-            <h3 className="heading3 text-white">Join us for a transformative journey!</h3>
-            <div className="mt-4">At CollectIntel, we're here to amplify your growth. Our expert consultants drive innovation, enhance processes, and accelerate success. Let's shape your prosperous future together!</div>
+            <h3 className="heading3 text-white">Grow smarter with Ridgeveda</h3>
+            <div className="mt-4">From robust software development to high-performance digital marketing, we help brands innovate, scale, and lead.
+Together, let’s build what’s next.</div>
           </div>
           <div className="lg:w-6/12">
             <div className="lg:pl-[55px]">
