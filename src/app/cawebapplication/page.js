@@ -284,8 +284,6 @@ export default function CAConsultancyPage() {
                     </div>
                 </div>
             </section>
-
-
         </div>
     );
 }
