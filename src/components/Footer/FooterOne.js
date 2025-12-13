@@ -32,11 +32,9 @@ export default function FooterOne({ classname }) {
         className="w-[148px] block !m-0 !p-0"
       />
     </Link>
-
     {/* <p className="caption1 text-left !m-0 !p-0 !ml-0 !pl-0">
       At RidgeVeda, we simplify growth by bridging offline and online customer acquisition through smart, data-driven solutions supported by reliable software, effective digital marketing, and efficient sales and telecalling services.
     </p> */}
-
     <p className="caption1 text-left !m-0 !p-0 !ml-0 !pl-0">
       Mon - Sat: 9:00 AM - 6:00 PM <br /> Closed on Sundays
     </p>
