@@ -304,10 +304,10 @@ const handleUrlChange = (e) => {
       <section className="container mx-auto  px- lg:px-10 ">
         <div className="grid grid-cols-12 gap-8 pt-5 mt-5">
           {/* Left Column */}
-          <div className="col-span-12 lg:col-span-8 pt-5 mt-3">
+          <div className="col-span-12 lg:col-span-8 pt-0 mt-0">
             <div className="infor">
               <div className="heading">
-                <h2 className="heading4 mt-5 mx-2">How Content Marketing Services Drive Business Growth ? </h2>
+                <h2 className="heading4 mt-0 mx-2">How Content Marketing Services Drive Business Growth ? </h2>
                 <p className="body2 mt-4 mx-2">
                 Content marketing services drive business growth by attracting and engaging potential customers through valuable, SEO-optimized content. This increases brand awareness, generates qualified leads, and boosts customer trust. By delivering consistent, high-quality content, businesses can enhance your online presence and achieve long-term success.                </p>
 

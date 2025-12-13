@@ -315,10 +315,11 @@ const handleUrlChange = (e) => {
       <section className="container mx-auto   lg:px-10 ">
         <div className="grid grid-cols-12 gap-8 pt-5">
           {/* Left Column */}
-          <div className="col-span-12 lg:col-span-8 mt-5 pt-5">
-            <div className="infor pt-5">
-              <div className="heading mt-5">
-                <h2 className="heading4 mt-4 ">Digital Marketing Services at Ridgeveda </h2>
+          <div className="col-span-12 lg:col-span-8 mt-0 pt-0">
+            <p className="pb-5">Home → Services → Marketing</p>
+            <div className="infor pt-0">
+              <div className="heading mt-0">
+                <h2 className="heading4 mt-0 ">Digital Marketing Services at Ridgeveda </h2>
                 <p className="body2 mt-4 ">
                In the digital age, your online presence is key to unlocking growth. At Ridgeveda, we offer comprehensive digital marketing services designed to drive results. Our expertise helps businesses attract, engage, and convert their target audience, ensuring long-term success              </p>
 

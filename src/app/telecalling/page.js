@@ -301,12 +301,13 @@ const handleUrlChange = (e) => {
       {showGetPopup && <PopupForm onClose={() => setShowGetPopup(false)} />}
       {/* Introduction Section */}
       <section className="container mx-auto  px- lg:px-10 ">
-        <div className="grid grid-cols-12 gap-8 pt-5 mt-5">
+        <div className="grid grid-cols-12 gap-8 pt-0 mt-5">
           {/* Left Column */}
-          <div className="col-span-12 lg:col-span-8 pt-5 mt-3">
+          <div className="col-span-12 lg:col-span-8 pt-0 mt-0">
+            <p className="pb-5">Home → Services → TelecallingOutsourcing</p>
             <div className="infor">
               <div className="heading">
-                <h2 className="heading4 mt-5 mx-2">Driving Growth Through Smart Telecalling Outsourcing </h2>
+                <h2 className="heading4 mt-0 mx-2">Driving Growth Through Smart Telecalling Outsourcing </h2>
                 <p className="body2 mt-4 mx-2">
                 At RidgeVeda Pvt Ltd, we understand that customer communication is the backbone of every successful business. Our Telecalling outsourcing services are designed to help organizations streamline outreach, improve conversions, and enhance customer experience with trained and professional calling teams. Whether you operate in education, healthcare, finance, real estate, retail, or services, we provide end-to-end telecalling support customized to your business objectives.
               </p>

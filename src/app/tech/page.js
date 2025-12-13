@@ -218,7 +218,8 @@ export default function Services() {
       <section className="container mx-auto  px- lg:px-10 mt-2">
         <div className="grid grid-cols-12 gap-8 pt-5">
           {/* Left Column */}
-              <div className="col-span-12 lg:col-span-8 mt-5 pt-5">
+              <div className="col-span-12 lg:col-span-8 mt-0 pt-0">
+                 <p className="pb-5">Home → Services → Tech</p>
                 <div className="infor">
                   {/* <div className="heading">
                     <h2 className="heading4 mt-5">How Tech Services Drive Business Growth ?</h2>
@@ -228,7 +229,7 @@ export default function Services() {
 
                   </div> */}
                    <div className="heading">
-                    <h2 className="heading4 mt-5">Empowering Businesses with Scalable, Smart & Secure Technology Solutions</h2>
+                    <h2 className="heading4 mt-0">Empowering Businesses with Scalable, Smart & Secure Technology Solutions</h2>
                     <p className="body2 mt-4">
                       At Ridgeveda, we blend creativity, technology, and strategy to build intelligent digital solutions that drive innovation and growth. Whether you're a startup, SME, or enterprise, our technology services are designed to simplify your operations, enhance user experience, and future-proof your business in the digital age.
 

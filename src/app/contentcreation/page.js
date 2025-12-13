@@ -228,11 +228,11 @@ export default function Services() {
       <section className="container mx-auto  px- lg:px-10 mt-2">
         <div className="grid grid-cols-12 gap-8 pt-5">
           {/* Left Column */}
-              <div className="col-span-12 lg:col-span-8 mt-5 pt-5">
+              <div className="col-span-12 lg:col-span-8 mt-0 pt-0">
+                <p className="pb-5">Home → Services → contentcreation</p>
                 <div className="infor">
-                 
                    <div className="heading">
-                    <h2 className="heading4 mt-5">Bring Your Brand Story to Life with High-Impact Visuals</h2>
+                    <h2 className="heading4 mt-0">Bring Your Brand Story to Life with High-Impact Visuals</h2>
                     <p className="body2 mt-4">
                      At Ridgeveda, we transform your ideas into stunning visual narratives that not only captivate your audience but also drive measurable business results. In an era where video content dominates the digital landscape, standing out requires more than just shooting a video — it demands storytelling excellence, creative vision, technical expertise, and platform-specific strategy.
                     </p>

@@ -310,10 +310,11 @@ const handleUrlChange = (e) => {
       <section className="container mx-auto   lg:px-10 ">
         <div className="grid grid-cols-12 gap-8 pt-5">
           {/* Left Column */}
-          <div className="col-span-12 lg:col-span-8 mt-5 pt-5">
-            <div className="infor pt-5">
-              <div className="heading mt-5">
-                <h2 className="heading4 mt-4 ">Driving Growth Through Strategic Sales Solutions </h2>
+          <div className="col-span-12 lg:col-span-8 mt-0 pt-0">
+            <p className="pb-5">Home → Services → Sales</p>
+            <div className="infor pt-0">
+              <div className="heading mt-0">
+                <h2 className="heading4 mt-0 ">Driving Growth Through Strategic Sales Solutions </h2>
                 <p className="body2 mt-4 ">
                At Ridgeveda, we understand that sales are the heartbeat of every business. Our sales services are designed to empower organizations with the tools, expertise, and manpower needed to boost revenue, enhance customer acquisition, and maximize market penetration. Whether you're in banking, finance, real estate, or retail, we provide end-to-end sales support tailored to your unique business goals.
                </p>
