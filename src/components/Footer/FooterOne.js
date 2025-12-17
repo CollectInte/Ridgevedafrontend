@@ -377,7 +377,6 @@ export default function FooterOne({ classname }) {
           Close
         </button>
       </div>
-
     </div>
   </div>
 )}
