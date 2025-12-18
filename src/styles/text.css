@@ -1601,6 +1601,8 @@ border-radius: 4px;
   gap: 10px;
   padding: 10px;
   min-width: 450px;
+  max-height: 70vh !important;       /* ✅ instead of height */
+  overflow-y: auto !important;
   z-index: 50;
   opacity: 0;
   visibility: hidden;
