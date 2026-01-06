@@ -11,7 +11,8 @@ const logos = [
   "/images/clients/blissfulbakes.png",
   "/images/clients/wonderkids.png",
   "/images/clients/9flavours.png",
-  "/images/clients/jjwellness.jpg",
+  "/images/clients/eduraise.png",
+  "/images/clients/bhaskar.png",
   "/images/clients/praanaspa.png",
   "/images/clients/rajaoriginals.jpg",
   
